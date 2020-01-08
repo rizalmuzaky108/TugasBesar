@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/belakang">
+
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="false"
+                android:layout_marginTop="40dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="150dp"
+                    android:text="MOHAMMAD RIZAL MUZAKY"
+                    android:textSize="25sp"
+                    android:textColor="#6633CC"
+                    android:textStyle="bold"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/ic" />
+
+            </FrameLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/coba"
+            >
+
+            <TextView
+            android:id="@+id/tv_heart"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/like"
+            android:textSize="20sp"
+            android:drawableStart="@drawable/ic_mail"
+            android:drawablePadding="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="10dp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="110dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:background="@android:color/black"
+                android:contentDescription="@string/todo" />
+
+
+
+            <TextView
+                android:id="@+id/tv_comment"
+                android:layout_width="300dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:text="@string/comment"
+                android:textSize="20sp"
+                android:drawableStart="@drawable/ic_call"
+                android:drawablePadding="20dp"
+                android:layout_marginTop="125dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="185dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:background="@android:color/black"
+                android:contentDescription="@string/todo" />
+
+
+            <TextView
+                android:id="@+id/tv_chat"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="@string/update"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:drawableStart="@drawable/ic_insta"
+                android:drawablePadding="20dp"
+                android:layout_marginTop="200dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"/>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="260dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:background="@android:color/black"
+                android:contentDescription="@string/todo" />
+
+
+
+            <TextView
+                android:id="@+id/tv_set"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="280dp"
+                android:layout_marginRight="30dp"
+                android:drawableStart="@drawable/ic_message_black_24dp"
+                android:drawablePadding="20dp"
+                android:text="@string/settings"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+
+            <Button
+                android:id="@+id/tv_button"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="350dp"
+                android:background="@drawable/custom_button"
+                android:clickable="true"
+                android:text="@string/Follow"
+                android:textAlignment="center"
+                android:textColor="#fff" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
